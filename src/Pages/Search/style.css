@@ -1,0 +1,28 @@
+.search{
+    background: black;
+    width: 100vw;
+    min-height: 100vh;
+}
+.search-section-meals{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}.search-section-heading{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.search-section-heading h3{
+    font-size: 25px;
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+}
+.search-section-heading h3::before{
+    content: '';
+    width: 70px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -5px;
+}

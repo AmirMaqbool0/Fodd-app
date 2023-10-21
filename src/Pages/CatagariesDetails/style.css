@@ -1,0 +1,33 @@
+.catagaries-detail{
+    width: 100vw;
+    min-height: 100vh;
+    background: black;
+    color: white;
+    
+}
+.Meals{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+   padding-top: 100px;
+}
+.catagaries-details-heading{
+    position: absolute;
+    top: 40px;
+    padding: 20px;
+}
+.catagaries-details-heading h1{
+    font-size: 35px;
+    font-family: 'Playpen Sans', cursive;
+    position: relative;
+}
+.catagaries-details-heading h1::before{
+    content: '';
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    background: orangered;
+    position: absolute;
+    bottom: -5px;
+}

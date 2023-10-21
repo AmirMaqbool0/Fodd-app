@@ -1,0 +1,206 @@
+.main-detail-section{
+    width: 100%;
+    min-height: 100vh;
+    background: black;
+    padding-bottom: 50px;
+}
+.detail-upper-section{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.detail-poster{
+    width: 45%;
+    height: 400px;
+   
+}
+.detail-poster img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mael-detail-text{
+    width: 45%;
+    height: 400px;
+    background-color: rgb(27, 27, 27);
+    overflow: hidden;
+  
+}
+
+.meal-detail-name {
+    padding: 10px;
+  }
+  .meal-detail-name h3 {
+    font-size: 15px;
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+  }
+  .meal-detail-name h3::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: orangered;
+    position: absolute;
+    bottom: -5px;
+    border-radius: 10px;
+  }
+  .catagarie-name {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+  }
+  .catagarie-name h5 {
+    font-weight: 600;
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: 'Kanit', sans-serif;
+  }
+  .catagarie-name span {
+    margin-left: 10px;
+    font-size: 11px;
+    color: rgb(126, 125, 125);
+    margin-top: 2px;
+    font-family: 'Kanit', sans-serif;
+  }
+  .ingrideants-box {
+    width: 90%;
+    height: fit-content;
+    margin-top: 10px;
+    background: orangered;
+    overflow: hidden;
+  }
+  .ingrdiant-heading {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .ingrdiant-heading h6 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Kanit', sans-serif;
+  }
+  .ingridiant-name {
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ingridiant-no {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 130px;
+    overflow: hidden;
+  }
+  .ingridiant-no h4 {
+    width: 25px;
+    background: rgb(88, 14, 185);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+  }
+  .ingridiant-no span {
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: 'Kanit', sans-serif;
+  }
+
+.measure-setion{
+    width: 60%;
+    height: fit-content;
+    margin-left: 20px;
+    
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+
+.detail-measure {
+    width: 200px;
+    display: flex;
+    
+    padding: 20px;
+  }
+  .detail-measure h4 {
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family: 'Kanit', sans-serif;
+  }
+  .measure-heading{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+  }
+ 
+  
+  
+  
+.instruction-section{
+    width: 90%;
+    margin-left: 20px;
+    height: fit-content;
+    
+    margin-top: 30px;
+    background-color: rgb(27, 27, 27);
+    padding: 30px;
+    
+}
+.instrution-heading{
+    margin-bottom: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.instrution-section p{
+    margin-top: 50px;
+    line-height: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.youtube-link{
+    margin-top: 20px;
+    display: flex;
+}
+.youtube-link a{
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media screen and (max-width:810px) {
+    .detail-upper-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .detail-poster{
+        width: 90%;
+       
+    }
+    .mael-detail-text{
+        margin-top: 40px;
+        width: 95%;
+        padding: 5px;
+
+        height: fit-content;
+    }
+    .main-detail-section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .measure-setion{
+        margin-left: -60px
+    }
+    .measure-heading{
+        margin-left: -180px;
+    }
+    .youtube-link a{
+        font-size: 12px;
+    }
+}
